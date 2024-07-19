@@ -1,6 +1,6 @@
-import java.util.*;
+import java.util.ArrayList;
 
-public class Users {
+public class User {
 	// First name of the account holder
 		private String fName;
 		
@@ -14,6 +14,6 @@ public class Users {
 		private byte pinHash[];
 		
 		// The List of accounts for this user
-		private ArrayList<String> accounts;
+		private ArrayList<Account> accounts;
 		
 }
